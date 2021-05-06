@@ -8434,7 +8434,7 @@ h1, h2, h3, h4, h5,
               font-size: 40px;
               letter-spacing: 3px; } }
         .owl-carousel.home-slider .slider-item .slider-text h2 {
-          font-size: 16px;
+          font-size: 30px;
           text-transform: uppercase;
           letter-spacing: 2px;
           font-family: "Montserrat", Arial, sans-serif;
@@ -9015,7 +9015,7 @@ textarea.form-control {
     box-shadow: 0 0 0 0 rgba(27, 161, 45, 0); } }
 
 .heading-section .subheading {
-  font-size: 12px;
+  font-size: 16px;
   display: block;
   font-weight: 600;
   color: red;
@@ -9711,3 +9711,32 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+    #back2Top {
+      width: 40px;
+      line-height: 40px;
+      overflow: hidden;
+      z-index: 999;
+      display: none;
+      cursor: pointer;
+      -moz-transform: rotate(270deg);
+      -webkit-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
+      position: fixed;
+      bottom: 50px;
+      right: 0;
+      background-color: #DDD;
+      color: red;
+      text-align: center;
+      font-size: 30px;
+      text-decoration: none;
+  }
+  #back2Top:hover {
+      background-color: #DDF;
+      color: #000;
+  }
