@@ -135,13 +135,23 @@
 <div class="row">
 
 
-<div class="col-md-6">
+<!-- <div class="col-md-6">
 <div class="form-group">
 <label class="label" for="mrs">MR/MRS/MISS</label>
 <input type="text" class="form-control" name="name" id="mrs" placeholder="Mr/Mrs/Miss" required="required">
 </div>
+</div> -->
+<div class="col-md-6">
+<div class="form-group">
+<label class="label" for="mrs">MR/MRS/MISS</label>
+       <select class="form-control" id="mrs" name="mrs" class="form-control">
+                <option value="Mr">Mr</option>
+                <option value="Mrss">Mrs</option>
+                <option value="Miss">Miss</option>
+                 
+        </select>
 </div>
-
+</div>
 
 <div class="col-md-6">
 <div class="form-group">
@@ -686,12 +696,13 @@
 
 <div class="col-md-6">
 <div class="form-group">
-<label class="label" for="typeofcomp">Company Type</label>
-       <select class="form-control" id="typeofcomp" name="typeofcomp" class="form-control">
-                <option value="freezonecompany">Free Zone Company</option>
-                <option value="onshorecompany">OnShore Company(LLC Company)</option>
-                <option value="offshorecompany">Offshore Company</option>  
-        </select>
+<label class="label" for="typeofcomp">Service Type</label>
+<select class="form-control" id="typeofcomp" name="typeofcomp" class="form-control">
+                <option value=" UAEFreeZoneCompany"> UAE Free Zone Company</option>
+                <option value="llccompany">UAE Onshore Company (LLC Company)</option>
+                <option value="shorecompany">UAE Offshore Company</option>  
+                <option value="proservices">Other Pro Services </option>  
+</select>
 </div>
 </div>
 
