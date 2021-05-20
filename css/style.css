@@ -9842,3 +9842,27 @@ textarea.form-control {
     opacity: 0;
   }
 }
+
+@media only screen and (min-width: 768px) 
+{
+
+
+    .padflex
+    {
+     display: flex;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    background: #f8f9fd;
+    }
+    .padflex3
+    {
+
+     padding-left: 25px !important; 
+    padding-right: 52px;
+    text-align: center;
+    padding-top: 115px;
+
+    }
+
+
+}
